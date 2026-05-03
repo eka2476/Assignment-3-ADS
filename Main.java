@@ -5,8 +5,6 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("===== HashTable Test =====");
-
         MyHashTable<MyTestingClass, Student> table = new MyHashTable<>();
 
         Random random = new Random();
@@ -39,8 +37,6 @@ public class Main {
         table.remove(testKey);
         System.out.println("After remove, get test: " + table.get(testKey));
 
-
-        System.out.println("\n===== BST Test =====");
 
         BST<Integer, String> tree = new BST<>();
 
