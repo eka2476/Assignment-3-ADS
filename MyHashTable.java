@@ -41,7 +41,7 @@ public class MyHashTable<K, V> {
         int index = hash(key);
         HashNode<K, V> head = chainArray[index];
 
-        // check if key already exists, update value
+        // check if key already exists, update
         HashNode<K, V> current = head;
         while (current != null) {
             if (current.key.equals(key)) {
